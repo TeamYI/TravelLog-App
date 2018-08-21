@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="user_gender">
+        <item>남자</item>
+        <item>여자</item>
+    </string-array>
+
+    <string-array name="view_mode">
+        <item>250m</item>
+        <item>500m</item>
+        <item>1km</item>
+        <item>3km</item>
+        <item>5km</item>
+    </string-array>
+    <string-array name="list_dialog_step_log_item">
+        <item>전체공재</item>
+        <item>그룹공개</item>
+        <item>비공개</item>
+        <item>취소</item>
+</string-array>
+</resources>

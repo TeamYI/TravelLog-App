@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Travel_Log</string>
+    <string name="facebook_app_id">258426851289196</string>
+    <string name="list_dialog_title">선택하세요..</string>
+    <string-array name="list_dialog_list_item">
+        <item>갤러리</item>
+        <item>음성메모</item>
+        <item>취소</item>
+    </string-array>
+
+    <string-array name="list_dialog_main_item">
+        <item>AR CAMERA</item>
+        <item>LIFE CAMERA</item>
+        <item>취소</item>
+    </string-array>
+
+    <string-array name="list_dialog_money_item">
+        <item>문자로 입력</item>
+        <item>직접 입력</item>
+        <item>취소</item>
+    </string-array>
+
+    <string-array name="list_dialog_option_item">
+        <item>수정</item>
+        <item>삭제</item>
+        <item>취소</item>
+    </string-array>
+
+    <string-array name="log_wrtie_item">
+        <item>로그</item>
+        <item>스탭 로그</item>
+        <item>취소</item>
+    </string-array>
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="turn.zio.zara.travel_log.TravelCameraActivity">
+
+    <Button
+        android:id="@+id/Memory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/takePicture"
+        android:layout_marginLeft="10dp"
+        android:onClick="memory"
+        android:text="Memory" />
+
+    <Button
+        android:id="@+id/takePicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="takephoto"
+        android:text="카메라"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="161dp"
+        app:layout_constraintTop_toTopOf="@+id/travel_camera_frame"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp" />
+
+
+    <FrameLayout
+        android:id="@+id/travel_camera_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="autoFocus"
+        android:layout_alignParentBottom="true">
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/previewImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:visibility="visible" />
+
+
+</RelativeLayout>

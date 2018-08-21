@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "961094660772",
+    "firebase_url": "https://travellog-a5551.firebaseio.com",
+    "project_id": "travellog-a5551",
+    "storage_bucket": "travellog-a5551.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961094660772:android:ed74ff6d69462ee9",
+        "android_client_info": {
+          "package_name": "turn.zio.zara.travel_log"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961094660772-hs8dgjhm1egu8sc07ac9ggp2n08b7amr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzympgvNLvCkj2CXRKQ1RvoP5JyHQ8Mhc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
